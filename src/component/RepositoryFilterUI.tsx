@@ -1,7 +1,3 @@
-import { useQuery } from "@apollo/client";
-import { GET_USER_REPOS } from "@/graphql/queries";
-import { useMemo, useState } from "react";
-import RepositoryCard from "./RepositoryCard";
 import {
   Select,
   SelectTrigger,
@@ -9,8 +5,6 @@ import {
   SelectContent,
   SelectItem,
 } from "@/components/ui/select";
-import { Input } from "@/components/ui/input";
-import { useFilterRepos } from "@/hooks/useFilterRepos";
 import { languageOptions } from "@/lib/constants";
 
 type Props = {
