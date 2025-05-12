@@ -68,7 +68,12 @@ export default function RepositoryList({
         <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-indigo-500"></div>
       </div>
     );
-  if (error) return <p className="text-red-500">Error: {error.message}</p>;
+  if (error)
+    return (
+      <div className="flex justify-center items-center h-[500px]">
+        <p className="text-red-500">Error: {error?.message}</p>;
+      </div>
+    );
 
   if (!filteredData.length)
     return (
