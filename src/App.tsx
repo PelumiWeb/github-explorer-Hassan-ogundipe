@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <div className="">
-        <h1 className="text-3xl font-bold mb-6 text-center">
+        <h1 className="text-3xl font-bold mb-6 text-center mt-4">
           GitHub Repository Explorer
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-between py-2 px-4">
