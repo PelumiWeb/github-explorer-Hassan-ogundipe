@@ -5,7 +5,7 @@ import RepositoryFilterUI from "./component/RepositoryFilterUI";
 // import { Input } from "./components/ui/input";
 
 function App() {
-  const [username, setUsername] = React.useState("");
+  const [username, setUsername] = React.useState("pelumiweb");
 
   const [language, setLanguage] = React.useState<string | null>(null);
   const [sort, setSort] = React.useState<"stars" | "updated">("updated");
